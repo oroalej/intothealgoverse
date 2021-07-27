@@ -1,4 +1,4 @@
-import {BrowserRouter as Router, Route, Switch,} from "react-router-dom";
+import {HashRouter , Route, Switch,} from "react-router-dom";
 
 import Home from "./Pages/Home";
 import DappIndex from "./Pages/DApp/Index";
@@ -6,7 +6,7 @@ import CommunityIndex from "./Pages/Community/Index";
 
 function App() {
   return (
-    <Router>
+    <HashRouter basename="/">
       <div className="App">
         <Switch>
           <Route exact path="/">
@@ -20,7 +20,7 @@ function App() {
           </Route>
         </Switch>
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
