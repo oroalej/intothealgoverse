@@ -1,0 +1,112 @@
+[
+  {
+    "title": "DeFi",
+    "list": [
+      {
+        "name": "Yieldy.Finance",
+        "site": "https://yieldly.finance/",
+        "is_released": true,
+        "actions": {
+          "reddit": "https://www.reddit.com/r/yieldly/",
+          "telegram": "https://t.me/yieldly",
+          "twitter": "https://twitter.com/yieldlyfinance"
+        }
+      },
+      {
+        "name": "Tinyman",
+        "site": "https://tinyman.org/",
+        "is_released":  false,
+        "actions": {
+          "github": "https://github.com/tinymanorg",
+          "reddit": "https://www.reddit.com/r/Tinyman/",
+          "discord": "https://discord.gg/ZYVKmDf4",
+          "twitter": "https://twitter.com/tinymanorg"
+        }
+      },
+      {
+        "name": "Algodex",
+        "site": "https://about.algodex.com/",
+        "is_released":  false,
+        "actions": {
+          "reddit": "https://www.reddit.com/r/Algodex/",
+          "telegram": "https://t.me/algodex",
+          "twitter": "https://twitter.com/AlgodexOfficial"
+        }
+      },
+      {
+        "name": "Folks.Finance",
+        "site": "https://folks.finance/",
+        "is_released":  false,
+        "actions": {
+          "discord": "https://discord.gg/V9JX5zzp5C",
+          "telegram": "https://t.me/FolksFinance",
+          "twitter": "https://twitter.com/folksfinance"
+        }
+      },
+      {
+        "name": "Algobank",
+        "site": "https://www.algobank.finance/",
+        "is_released":  false
+      }
+    ]
+  },
+  {
+    "title": "NFT / Marketplace",
+    "list": [
+      {
+        "name": "Algogems",
+        "site": "https://algogems.io/",
+        "is_released":  false,
+        "actions": {
+          "twitter": "https://twitter.com/AlgogemsNFT"
+        }
+      },
+      {
+        "name": "og2d",
+        "site": "https://www.og2d.com/",
+        "is_released":  true
+      }
+    ]
+  },
+  {
+    "title": "Voting",
+    "list": [
+      {
+        "name": "Fortior Blockchain",
+        "site": "https://fortiorblockchain.com/",
+        "is_released":  false,
+        "actions": {
+          "twitter": "https://twitter.com/AlgogemsNFT",
+          "discord": "https://discord.gg/Trmn2Z6d"
+        }
+      }
+    ]
+  },
+  {
+    "title": "Real Estate",
+    "list": [
+      {
+        "name": "Lofty.ai",
+        "site": "https://www.lofty.ai/",
+        "is_released":  true,
+        "actions": {
+          "telegram": "https://t.me/LoftyPublic"
+        }
+      }
+    ]
+  },
+  {
+    "title": "Others",
+    "list": [
+      {
+        "name": "Venue.one",
+        "site": "https://venue.one/",
+        "is_released":  true,
+        "actions": {
+          "telegram": "https://t.me/LoftyPublic",
+          "twitter": "https://twitter.com/VenueMarkets"
+        }
+      }
+    ]
+  }
+]

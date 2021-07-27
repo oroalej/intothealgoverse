@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Wallet",
+    "list": [
+      {
+        "name": "wallet.myalgo",
+        "site": "https://wallet.myalgo.com/",
+        "is_released": true,
+        "actions": {
+          "twitter": "https://twitter.com/algo_explorer"
+        }
+      }
+    ]
+  },
+  {
+    "title": "Curator",
+    "list": [
+      {
+        "name": "Algorandcurator",
+        "site": "https://www.algorandcurator.com/",
+        "is_released": true
+      },
+      {
+        "name": "INTO-THE-ALGOVERSE",
+        "site": "/",
+        "is_released": true
+      }
+    ]
+  },
+  {
+    "title": "Optimizer / faucet",
+    "list": [
+      {
+        "name": "algooptimizer",
+        "site": "https://algooptimizer.com/",
+        "is_released": true,
+        "actions": {
+          "discord": "https://discord.gg/Wr2KDKFb7v",
+          "github": "https://github.com/algooptimizer/"
+        }
+      },
+      {
+        "name": "algorandfaucet",
+        "site": "https://algorandfaucet.com/",
+        "is_released": true
+      }
+    ]
+  },
+  {
+    "title": "Explorer",
+    "list": [
+      {
+        "name": "algoexplorer",
+        "site": "https://algoexplorer.io/",
+        "is_released": true,
+        "actions": {
+          "twitter": "https://twitter.com/algo_explorer"
+        }
+      }
+    ]
+  }
+]

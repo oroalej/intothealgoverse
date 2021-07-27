@@ -1,0 +1,119 @@
+[
+  {
+    "title": "Algorand",
+    "list": [
+      "https://www.algorand.com/",
+      "https://algorand.foundation/",
+      "https://developer.algorand.org/"
+    ]
+  },
+  {
+    "title": "Github",
+    "list": [
+      "https://github.com/algorand/"
+    ]
+  },
+  {
+    "title": "Algorand Forum",
+    "list": [
+      "https://community.algorand.org/"
+    ]
+  },
+  {
+    "title": "Wallet",
+    "list": [
+      "https://algorandwallet.com/",
+      {
+        "link": "https://wallet.myalgo.com/",
+        "is_official": false
+      }
+    ]
+  },
+  {
+    "title": "Explorer",
+    "list": [
+      "https://algoexplorer.io/"
+    ]
+  },
+  {
+    "title": "Twitter",
+    "list": [
+      "https://twitter.com/Algorand",
+      "https://twitter.com/silviomicali",
+      "https://twitter.com/KeliCallaghan",
+      "https://twitter.com/stevekokinos",
+      "https://twitter.com/AlgoFoundation"
+    ]
+  },
+  {
+    "title": "Reddit",
+    "list": [
+      {
+        "text": "r/AlgorandOfficial",
+        "link": "https://www.reddit.com/r/AlgorandOfficial",
+        "is_official": true
+      },
+      {
+        "text": "r/Algorand",
+        "link": "https://www.reddit.com/r/Algorand"
+      },
+      {
+        "text": "r/AlgoNFTMarketplace",
+        "link": "https://www.reddit.com/r/AlgoNFTMarketplace"
+      },
+      {
+        "text": "r/WeAlgoTogether",
+        "link": "https://www.reddit.com/r/WeAlgoTogether"
+      }
+    ]
+  },
+  {
+    "title": "Telegram",
+    "list": [
+      "https://t.me/algorand",
+      "https://t.me/algorand_announcements",
+      {
+        "link": "https://t.me/algorand_price"
+      }
+    ]
+  },
+  {
+    "title": "Discord",
+    "list": [
+      "https://discord.com/invite/YgPTCVk"
+    ]
+  },
+  {
+    "title": "LinkedIn",
+    "list": [
+      "https://www.linkedin.com/company/algorand",
+      "https://www.linkedin.com/company/algorandfoundation"
+    ]
+  },
+  {
+    "title": "Youtube",
+    "list": [
+      "https://www.youtube.com/algorand",
+      "https://www.youtube.com/channel/UCYqAUajjZd0PuHyHslY_8Ww"
+    ]
+  },
+  {
+    "title": "Facebook",
+    "list": [
+      "https://www.facebook.com/algorand"
+    ]
+  },
+  {
+    "title": "Instagram",
+    "list": [
+      "https://www.instagram.com/algorandofficial"
+    ]
+  },
+  {
+    "title": "Medium",
+    "list": [
+      "https://medium.com/algorand"
+    ]
+  }
+]
+
