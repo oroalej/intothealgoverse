@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/intothealgoverse/static/css/main.c7845f05.chunk.css",
-    "main.js": "/intothealgoverse/static/js/main.440fd66a.chunk.js",
-    "main.js.map": "/intothealgoverse/static/js/main.440fd66a.chunk.js.map",
+    "main.js": "/intothealgoverse/static/js/main.7e075b8d.chunk.js",
+    "main.js.map": "/intothealgoverse/static/js/main.7e075b8d.chunk.js.map",
     "runtime-main.js": "/intothealgoverse/static/js/runtime-main.5151687c.js",
     "runtime-main.js.map": "/intothealgoverse/static/js/runtime-main.5151687c.js.map",
     "static/js/2.4b208e5e.chunk.js": "/intothealgoverse/static/js/2.4b208e5e.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.5151687c.js",
     "static/js/2.4b208e5e.chunk.js",
     "static/css/main.c7845f05.chunk.css",
-    "static/js/main.440fd66a.chunk.js"
+    "static/js/main.7e075b8d.chunk.js"
   ]
 }
