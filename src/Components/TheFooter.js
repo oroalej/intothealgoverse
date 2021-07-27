@@ -8,7 +8,7 @@ const TheFooter = () => (
         <span>Designed with</span>
         <HeartIcon class="w-4 h-4 text-red-500 animate-pulse"/>
         <span>by</span>
-        <a href="/" tw="hover:text-white hover:underline transition-colors">Alexander Oro</a>
+        <span tw="hover:text-white hover:underline transition-colors">Alexander Oro</span>
       </div>
     </div>
   </div>

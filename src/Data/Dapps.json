@@ -101,7 +101,7 @@
       {
         "name": "Venue.one",
         "site": "https://venue.one/",
-        "is_released":  true,
+        "is_released":  false,
         "actions": {
           "telegram": "https://t.me/LoftyPublic",
           "twitter": "https://twitter.com/VenueMarkets"

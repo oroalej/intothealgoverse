@@ -23,7 +23,10 @@
       {
         "name": "INTO-THE-ALGOVERSE",
         "site": "https://oroalej.github.io/intothealgoverse/#/",
-        "is_released": true
+        "is_released": true,
+        "actions": {
+          "github": "https://github.com/oroalej/intothealgoverse"
+        }
       }
     ]
   },
