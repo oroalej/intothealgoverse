@@ -1,5 +1,4 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
-const {spacing} = defaultTheme
 
 module.exports = {
   // mode: "jit",
@@ -11,9 +10,16 @@ module.exports = {
   theme: {
     extend: {
       minWidth: ['hover', 'focus'],
+      minHeight: theme => ({
+        96: '24rem'
+      }),
       height: theme => ({
+        6.5: '1.625rem',
         120: '30rem',
         176: '44rem'
+      }),
+      borderWidth: theme => ({
+        3: '3px'
       }),
       transitionProperty: {
         'width': 'width'

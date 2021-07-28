@@ -32,7 +32,10 @@
   {
     "title": "Explorer",
     "list": [
-      "https://algoexplorer.io/"
+      {
+        "link": "https://algoexplorer.io/",
+        "is_official": false
+      }
     ]
   },
   {

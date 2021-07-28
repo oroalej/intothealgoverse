@@ -8,7 +8,7 @@ const Card = ({children}) => (
   </div>
 )
 
-const CardTitle = tw.h4`font-medium text-lg mb-1 text-gray-700 uppercase`;
+const CardTitle = tw.h4`font-medium text-lg mb-1.5 text-gray-700 uppercase`;
 
 const CardBody = tw.div`flex flex-col sm:flex-row sm:justify-between items-center space-y-3 sm:space-y-0`;
 

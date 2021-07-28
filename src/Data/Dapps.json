@@ -3,7 +3,7 @@
     "title": "DeFi",
     "list": [
       {
-        "name": "Yieldy.Finance",
+        "name": "Yieldly.Finance",
         "site": "https://yieldly.finance/",
         "is_released": true,
         "actions": {
@@ -91,6 +91,20 @@
         "is_released":  true,
         "actions": {
           "telegram": "https://t.me/LoftyPublic"
+        }
+      }
+    ]
+  },
+  {
+    "title": "Music",
+    "list": [
+      {
+        "name": "Opulous",
+        "site": "https://opulous.org/",
+        "is_released": false,
+        "actions": {
+          "twitter": "https://twitter.com/opulousapp",
+          "telegram": "https://t.me/opulousapp"
         }
       }
     ]
