@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/intothealgoverse/static/css/main.0b6d4dbf.chunk.css",
-    "main.js": "/intothealgoverse/static/js/main.3c682441.chunk.js",
-    "main.js.map": "/intothealgoverse/static/js/main.3c682441.chunk.js.map",
+    "main.css": "/intothealgoverse/static/css/main.b4913559.chunk.css",
+    "main.js": "/intothealgoverse/static/js/main.c874f5ea.chunk.js",
+    "main.js.map": "/intothealgoverse/static/js/main.c874f5ea.chunk.js.map",
     "runtime-main.js": "/intothealgoverse/static/js/runtime-main.042cf3fa.js",
     "runtime-main.js.map": "/intothealgoverse/static/js/runtime-main.042cf3fa.js.map",
-    "static/js/2.915c6e0b.chunk.js": "/intothealgoverse/static/js/2.915c6e0b.chunk.js",
-    "static/js/2.915c6e0b.chunk.js.map": "/intothealgoverse/static/js/2.915c6e0b.chunk.js.map",
+    "static/js/2.76976013.chunk.js": "/intothealgoverse/static/js/2.76976013.chunk.js",
+    "static/js/2.76976013.chunk.js.map": "/intothealgoverse/static/js/2.76976013.chunk.js.map",
     "static/js/3.8c58a173.chunk.js": "/intothealgoverse/static/js/3.8c58a173.chunk.js",
     "static/js/3.8c58a173.chunk.js.map": "/intothealgoverse/static/js/3.8c58a173.chunk.js.map",
     "index.html": "/intothealgoverse/index.html",
-    "static/css/main.0b6d4dbf.chunk.css.map": "/intothealgoverse/static/css/main.0b6d4dbf.chunk.css.map",
-    "static/js/2.915c6e0b.chunk.js.LICENSE.txt": "/intothealgoverse/static/js/2.915c6e0b.chunk.js.LICENSE.txt"
+    "static/css/main.b4913559.chunk.css.map": "/intothealgoverse/static/css/main.b4913559.chunk.css.map",
+    "static/js/2.76976013.chunk.js.LICENSE.txt": "/intothealgoverse/static/js/2.76976013.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.042cf3fa.js",
-    "static/js/2.915c6e0b.chunk.js",
-    "static/css/main.0b6d4dbf.chunk.css",
-    "static/js/main.3c682441.chunk.js"
+    "static/js/2.76976013.chunk.js",
+    "static/css/main.b4913559.chunk.css",
+    "static/js/main.c874f5ea.chunk.js"
   ]
 }
