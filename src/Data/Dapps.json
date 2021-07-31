@@ -15,7 +15,7 @@
       {
         "name": "Tinyman",
         "site": "https://tinyman.org/",
-        "is_released":  false,
+        "is_released": false,
         "actions": {
           "github": "https://github.com/tinymanorg",
           "reddit": "https://www.reddit.com/r/Tinyman/",
@@ -26,7 +26,7 @@
       {
         "name": "Algodex",
         "site": "https://about.algodex.com/",
-        "is_released":  false,
+        "is_released": false,
         "actions": {
           "reddit": "https://www.reddit.com/r/Algodex/",
           "telegram": "https://t.me/algodex",
@@ -36,7 +36,7 @@
       {
         "name": "Folks.Finance",
         "site": "https://folks.finance/",
-        "is_released":  false,
+        "is_released": false,
         "actions": {
           "discord": "https://discord.gg/V9JX5zzp5C",
           "telegram": "https://t.me/FolksFinance",
@@ -46,51 +46,31 @@
       {
         "name": "Algobank",
         "site": "https://www.algobank.finance/",
-        "is_released":  false
-      }
-    ]
-  },
-  {
-    "title": "NFT / Marketplace",
-    "list": [
-      {
-        "name": "Algogems",
-        "site": "https://algogems.io/",
-        "is_released":  false,
-        "actions": {
-          "twitter": "https://twitter.com/AlgogemsNFT"
-        }
+        "is_released": false
       },
       {
-        "name": "og2d",
-        "site": "https://www.og2d.com/",
-        "is_released":  true
-      }
-    ]
-  },
-  {
-    "title": "Voting",
-    "list": [
-      {
-        "name": "Fortior Blockchain",
-        "site": "https://fortiorblockchain.com/",
-        "is_released":  false,
+        "name": "Algomint.io",
+        "site": "https://www.algomint.io/",
+        "is_released": false,
         "actions": {
-          "twitter": "https://twitter.com/AlgogemsNFT",
-          "discord": "https://discord.gg/Trmn2Z6d"
+          "twitter": "https://twitter.com/Algomint_io",
+          "telegram": "https://t.me/Algomint2"
         }
       }
     ]
   },
   {
-    "title": "Real Estate",
+    "title": "Gaming",
     "list": [
       {
-        "name": "Lofty.ai",
-        "site": "https://www.lofty.ai/",
-        "is_released":  true,
+        "name": "Smilecoin",
+        "site": "https://smilecoin.us/",
+        "is_released": false,
         "actions": {
-          "telegram": "https://t.me/LoftyPublic"
+          "reddit": "https://www.reddit.com/r/SmileCoin/",
+          "discord": "https://discord.gg/SnbpdnDzUn",
+          "twitter": "https://twitter.com/smile_coin1",
+          "telegram": "https://t.me/smilecoin_invite"
         }
       }
     ]
@@ -110,15 +90,99 @@
     ]
   },
   {
+    "title": "NFT / Marketplace",
+    "list": [
+      {
+        "name": "Algogems",
+        "site": "https://algogems.io/",
+        "is_released": false,
+        "actions": {
+          "twitter": "https://twitter.com/AlgogemsNFT"
+        }
+      },
+      {
+        "name": "og2d",
+        "site": "https://www.og2d.com/",
+        "is_released": true
+      },
+      {
+        "name": "Dahai",
+        "site": "www.dahai.uk",
+        "is_released": true,
+        "actions": {
+          "twitter": "https://twitter.com/artdahai",
+          "instagram": "https://www.instagram.com/artdahai",
+          "facebook": "https://www.facebook.com/DahaiArt"
+        }
+      }
+    ]
+  },
+  {
+    "title": "Real Estate",
+    "list": [
+      {
+        "name": "Lofty.ai",
+        "site": "https://www.lofty.ai/",
+        "is_released": true,
+        "actions": {
+          "telegram": "https://t.me/LoftyPublic"
+        }
+      },
+      {
+        "name": "Pocket Properties",
+        "site": "https://www.pocketpropertiesapp.com/",
+        "is_released": false,
+        "actions": {
+          "facebook": "https://www.facebook.com/pocketpropertiesapp/",
+          "twitter": "https://twitter.com/pocketpropsapp",
+          "instagram": "https://www.instagram.com/pocketpropertiesapp/"
+        }
+      }
+    ]
+  },
+  {
     "title": "Others",
     "list": [
       {
         "name": "Venue.one",
         "site": "https://venue.one/",
-        "is_released":  false,
+        "is_released": false,
         "actions": {
           "telegram": "https://t.me/LoftyPublic",
           "twitter": "https://twitter.com/VenueMarkets"
+        }
+      },
+      {
+        "name": "PlanetWatch",
+        "site": "https://planetwatch.io/",
+        "is_released": true,
+        "actions": {
+          "facebook": "https://www.facebook.com/PlanetWatch-106206814422901/",
+          "twitter": "https://twitter.com/planetwatchsas",
+          "telegram": "https://t.me/planetwatch",
+          "instagram": "https://www.instagram.com/planetwatchsas/"
+        }
+      }, {
+        "name": "PotatoCoin",
+        "site": "https://potatocoin.co/",
+        "is_released": true,
+        "actions": {
+          "twitter": "https://twitter.com/PotatoCoins",
+          "instagram": "https://www.instagram.com/potatocoins/"
+        }
+      }
+    ]
+  },
+  {
+    "title": "Voting",
+    "list": [
+      {
+        "name": "Fortior Blockchain",
+        "site": "https://fortiorblockchain.com/",
+        "is_released": false,
+        "actions": {
+          "twitter": "https://twitter.com/AlgogemsNFT",
+          "discord": "https://discord.gg/Trmn2Z6d"
         }
       }
     ]

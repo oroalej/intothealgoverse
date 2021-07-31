@@ -13,10 +13,13 @@ module.exports = {
       minHeight: theme => ({
         96: '24rem'
       }),
+      maxWidth: theme => ({
+        22.25: '5.5625rem'
+      }),
       height: theme => ({
         6.5: '1.625rem',
         120: '30rem',
-        176: '44rem'
+        184: '46rem'
       }),
       borderWidth: theme => ({
         3: '3px'

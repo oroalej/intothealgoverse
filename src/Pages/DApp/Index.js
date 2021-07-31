@@ -1,3 +1,4 @@
+import React, {useEffect, useState} from "react";
 import tw from 'twin.macro'
 import DefaultLayout from "../../Layouts/DefaultLayout";
 import TheBanner from "../../Components/TheBanner";
@@ -5,15 +6,15 @@ import TheSearch from "../../Components/TheSearch";
 import Card from "../../Components/Card";
 import ProjectList, {ProjectCardSkeleton} from "../../Components/Project";
 import {camelCase} from "lodash"
-import {useEffect, useState} from "react";
 import DataJson from "../../Data/Dapps.json";
+import ThemeData from "../../Data/Themes";
+import Skeleton from "../../Components/Skeleton";
 
 const DappIndex = () => {
   const [data, setData] = useState(DataJson)
   const [isLoading, setIsLoading] = useState(true);
 
   const originalData = DataJson.map(dapp => Object.assign({}, dapp))
-  const loadingCardElements = [];
 
   const ChangeSearchInput = (e) => {
     const input = e.target.value;
@@ -34,6 +35,8 @@ const DappIndex = () => {
   }
 
   useEffect(() => {
+    window.scroll({top: 0, left: 0, behavior: 'smooth'})
+
     const timer = setTimeout(() => {
       setIsLoading(false)
     }, 300)
@@ -41,12 +44,8 @@ const DappIndex = () => {
     return () => clearTimeout(timer)
   }, []);
 
-  for (let i = 0; i < 3; i++) {
-    loadingCardElements.push(<ProjectCardSkeleton key={`loading-${i}`}/>)
-  }
-
   return (
-    <DefaultLayout>
+    <DefaultLayout theme={ThemeData.dapp}>
       <TheBanner/>
       <TheSearch onClick={ChangeSearchInput} placeholder="Search for dapps" isLoading={isLoading}/>
 
@@ -56,11 +55,11 @@ const DappIndex = () => {
             {isLoading ? (
               <div tw="relative">
                 <Card.Title>
-                  <span tw="inline-block w-20 h-5 bg-gray-200 rounded transform animate-pulse"/>
+                  <Skeleton className={['w-20 h-5', ThemeData.dapp.background]}/>
                 </Card.Title>
 
                 <div tw="grid grid-cols-1 xl:grid-cols-2 gap-2.5">
-                  {loadingCardElements}
+                  <ProjectCardSkeleton/>
                 </div>
               </div>
             ) : data.map(dapp => (

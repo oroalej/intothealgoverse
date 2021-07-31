@@ -7,13 +7,14 @@ import ProjectList, {ProjectCardSkeleton} from "../../Components/Project";
 import {camelCase} from "lodash"
 import {useEffect, useState} from "react";
 import TheSearch from "../../Components/TheSearch";
+import ThemeData from "../../Data/Themes";
+import Skeleton from "../../Components/Skeleton";
 
 const CommunityIndex = () => {
   const [data, setData] = useState(DataJson)
   const [isLoading, setIsLoading] = useState(true);
 
   const originalData = DataJson.map(dapp => Object.assign({}, dapp))
-  const loadingCardElements = [];
 
   const ChangeSearchInput = (e) => {
     const input = e.target.value;
@@ -34,6 +35,8 @@ const CommunityIndex = () => {
   }
 
   useEffect(() => {
+    window.scroll({top: 0, left: 0, behavior: 'smooth'})
+
     const timer = setTimeout(() => {
       setIsLoading(false)
     }, 300)
@@ -41,12 +44,8 @@ const CommunityIndex = () => {
     return () => clearTimeout(timer)
   }, []);
 
-  for (let i = 0; i < 3; i++) {
-    loadingCardElements.push(<ProjectCardSkeleton key={`loading-${i}`}/>)
-  }
-
   return (
-    <DefaultLayout>
+    <DefaultLayout theme={ThemeData.community}>
       <TheBanner/>
       <TheSearch onClick={ChangeSearchInput} placeholder="Search for community projects" isLoading={isLoading}/>
 
@@ -57,11 +56,11 @@ const CommunityIndex = () => {
             {isLoading ? (
               <div tw="relative">
                 <Card.Title>
-                  <span tw="inline-block w-20 h-5 bg-gray-200 rounded transform animate-pulse"/>
+                  <Skeleton className={['w-20 h-5', ThemeData.community.background]}/>
                 </Card.Title>
 
                 <div tw="grid grid-cols-1 xl:grid-cols-2 gap-2.5">
-                  {loadingCardElements}
+                  <ProjectCardSkeleton/>
                 </div>
               </div>
             ) : data.map(dapp => (

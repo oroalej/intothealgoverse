@@ -1,17 +1,23 @@
 import tw from 'twin.macro'
+import ThemeContext from "../Context/ThemeContext";
+import {useContext} from "react";
 
-const TheBanner = () => (
-  <div>
-    <div css={tw`flex-col w-full flex justify-center items-center bg-gray-900`} style={{height: '400px'}}>
-      <div tw="text-center space-y-5">
-        <p tw="text-gray-200 block text-2xl sm:text-5xl uppercase">Into-the-algoverse</p>
-        <p tw="text-gray-200 mt-1 text-xl">Your portal to the
-          <a href="https://www.algorand.com/" target="_blank" rel="noreferrer" tw="text-green-600 hover:text-green-700 mx-1">Algorand</a>
-          universe
-        </p>
+const TheBanner = () => {
+  const {background, text} = useContext(ThemeContext);
+
+  return (
+    <div>
+      <div css={tw`flex-col w-full flex justify-center items-center transition-colors duration-1000`}  className={[background, text]} style={{height: '400px'}}>
+        <div tw="text-center space-y-1 md:space-y-4">
+          <p tw="block text-2xl sm:text-3xl md:text-5xl uppercase">Into-the-algoverse</p>
+          <p tw="text-lg md:text-xl leading-normal font-light">Your portal to the
+            <a href="https://www.algorand.com/" target="_blank" rel="noreferrer" tw="underline font-normal mx-1">Algorand</a>
+            universe
+          </p>
+        </div>
       </div>
     </div>
-  </div>
-)
+  )
+}
 
 export default TheBanner;
