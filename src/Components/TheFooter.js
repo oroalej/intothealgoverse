@@ -7,8 +7,8 @@ const TheFooter = () => {
   const {background, text} = useContext(ThemeContext);
 
   return (
-    <div css={tw`flex items-center w-full px-5 py-3.5 text-sm`} className={[background, text]}>
-      <div tw="container mx-auto sm:px-12 flex flex-row justify-center sm:justify-between items-center">
+    <div css={tw`flex items-center w-full py-3.5 text-sm`} className={[background, text]}>
+      <div tw="container flex flex-row justify-center sm:justify-between items-center">
         <div tw="leading-none flex flex-row items-center gap-1">
           <span>Designed with</span>
           <HeartIcon className="w-4 h-4 text-red-500 animate-pulse"/>

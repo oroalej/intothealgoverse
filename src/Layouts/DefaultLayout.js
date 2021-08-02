@@ -8,12 +8,12 @@ const DefaultLayout = ({children, theme = ThemeData.default}) => {
   return (
     <ThemeContext.Provider value={theme}>
       <TheHeader/>
-      <main css={tw`bg-gray-50 h-full flex flex-col`} style={{minHeight: 'calc(100vh - 42px)'}}>
+      <main css={tw`bg-gray-50 h-full flex flex-col pt-14`} style={{minHeight: 'calc(100vh - 44px)'}}>
         {children}
       </main>
       <TheFooter/>
     </ThemeContext.Provider>
   )
 }
-
 export default DefaultLayout
+

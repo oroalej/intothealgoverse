@@ -95,7 +95,7 @@
       {
         "name": "Algogems",
         "site": "https://algogems.io/",
-        "is_released": false,
+        "is_released": true,
         "actions": {
           "twitter": "https://twitter.com/AlgogemsNFT"
         }
@@ -107,7 +107,7 @@
       },
       {
         "name": "Dahai",
-        "site": "www.dahai.uk",
+        "site": "https://www.dahai.uk",
         "is_released": true,
         "actions": {
           "twitter": "https://twitter.com/artdahai",
@@ -148,7 +148,7 @@
         "site": "https://venue.one/",
         "is_released": false,
         "actions": {
-          "telegram": "https://t.me/LoftyPublic",
+          "telegram": "https://t.me/venuemarkets",
           "twitter": "https://twitter.com/VenueMarkets"
         }
       },
@@ -181,7 +181,7 @@
         "site": "https://fortiorblockchain.com/",
         "is_released": false,
         "actions": {
-          "twitter": "https://twitter.com/AlgogemsNFT",
+          "twitter": "https://twitter.com/FortiorB",
           "discord": "https://discord.gg/Trmn2Z6d"
         }
       }

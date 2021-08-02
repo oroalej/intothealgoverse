@@ -10,6 +10,10 @@ const themes = {
   community: {
     background: "bg-green-900",
     text: "text-gray-100"
+  },
+  about: {
+    background: "bg-gray-700",
+    text: "text-gray-100"
   }
 };
 

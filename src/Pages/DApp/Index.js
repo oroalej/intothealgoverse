@@ -47,28 +47,26 @@ const DappIndex = () => {
   return (
     <DefaultLayout theme={ThemeData.dapp}>
       <TheBanner/>
-      <TheSearch onClick={ChangeSearchInput} placeholder="Search for dapps" isLoading={isLoading}/>
+      <TheSearch onChange={ChangeSearchInput} placeholder="Search for dapps" isLoading={isLoading}/>
 
-      <div css={tw`container mx-auto my-16 min-h-96`}>
-        <div tw="mx-4 sm:mx-12">
-          <div tw="relative space-y-5">
-            {isLoading ? (
-              <div tw="relative">
-                <Card.Title>
-                  <Skeleton className={['w-20 h-5', ThemeData.dapp.background]}/>
-                </Card.Title>
+      <div css={tw`container my-16 min-h-96`}>
+        <div tw="relative space-y-5">
+          {isLoading ? (
+            <div tw="relative">
+              <Card.Title>
+                <Skeleton className={['w-20 h-5', ThemeData.dapp.background]}/>
+              </Card.Title>
 
-                <div tw="grid grid-cols-1 xl:grid-cols-2 gap-2.5">
-                  <ProjectCardSkeleton/>
-                </div>
+              <div tw="grid grid-cols-1 xl:grid-cols-2 gap-2.5">
+                <ProjectCardSkeleton/>
               </div>
-            ) : data.map(dapp => (
-              <div tw="relative" key={camelCase(dapp.title)}>
-                <Card.Title>{dapp.title}</Card.Title>
-                <ProjectList list={dapp.list}/>
-              </div>
-            ))}
-          </div>
+            </div>
+          ) : data.map(dapp => (
+            <div tw="relative" key={camelCase(dapp.title)}>
+              <Card.Title>{dapp.title}</Card.Title>
+              <ProjectList list={dapp.list}/>
+            </div>
+          ))}
         </div>
       </div>
     </DefaultLayout>

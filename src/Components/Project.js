@@ -32,12 +32,12 @@ const ProjectCard = ({item}) => {
   return (
     <Card>
       <Card.Body>
-        <div tw="flex flex-row justify-start items-start gap-2">
+        <div tw="flex flex-row justify-start items-center gap-2">
 
           {isLoading ? <span tw="w-16 h-5 rounded transform animate-pulse bg-opacity-30" className={background}/> :
             <>
               <a href={item.site} rel="noreferrer" target="_blank"
-                 tw="text-lg leading-snug hover:underline text-green-700 whitespace-nowrap flex-1">{item.name}</a>
+                 tw="text-lg leading-snug hover:underline text-green-700 whitespace-nowrap sm:flex-1">{item.name}</a>
               {item.is_released ? <Badge color="success">Live</Badge> : <Badge>TBA</Badge>}
             </>
           }

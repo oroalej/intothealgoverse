@@ -17,9 +17,14 @@ module.exports = {
         22.25: '5.5625rem'
       }),
       height: theme => ({
+        4.5: '1.125rem',
         6.5: '1.625rem',
+        86: '21.5rem',
         120: '30rem',
         184: '46rem'
+      }),
+      width: theme => ({
+        4.5: '1.125rem',
       }),
       borderWidth: theme => ({
         3: '3px'
@@ -33,6 +38,20 @@ module.exports = {
     },
     container: {
       center: true,
+      screens: {
+        sm: '640px',
+        md: '768px',
+        lg: '1024px',
+        xl: '1280px',
+        '2xl': '1488px',
+      },
+      padding: {
+        DEFAULT: '1rem',
+        sm: '1rem',
+        lg: '1rem',
+        xl: '1rem',
+        '2xl': '1rem',
+      },
     },
   },
   variants: {
