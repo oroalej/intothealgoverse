@@ -59,6 +59,15 @@
         "actions": {
           "twitter": "https://twitter.com/algo_explorer"
         }
+      },
+      {
+        "name": "Goalseeker",
+        "site": "https://goalseeker.purestake.io/algorand/mainnet",
+        "is_released": true,
+        "actions": {
+          "twitter": "https://twitter.com/purestakeco",
+          "telegram": "https://t.me/PureStake"
+        }
       }
     ]
   }

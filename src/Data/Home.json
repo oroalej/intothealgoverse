@@ -35,6 +35,11 @@
       {
         "link": "https://algoexplorer.io/",
         "is_official": false
+      },
+      {
+        "text": "https://goalseeker.purestake.io/",
+        "link": "https://goalseeker.purestake.io/algorand/mainnet",
+        "is_official": false
       }
     ]
   },

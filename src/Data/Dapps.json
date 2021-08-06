@@ -20,7 +20,8 @@
           "github": "https://github.com/tinymanorg",
           "reddit": "https://www.reddit.com/r/Tinyman/",
           "discord": "https://discord.gg/ZYVKmDf4",
-          "twitter": "https://twitter.com/tinymanorg"
+          "twitter": "https://twitter.com/tinymanorg",
+          "telegram": "https://t.me/tinymanofficial"
         }
       },
       {
@@ -90,20 +91,43 @@
     ]
   },
   {
+    "title": "News",
+    "list": [
+      {
+        "name": "HEADLINECrypto",
+        "site": "https://headline.dev/crypto/",
+        "is_released": false,
+        "actions": {
+          "twitter": "https://twitter.com/headline_crypto",
+          "reddit": "https://www.reddit.com/r/HEADLINECrypto",
+          "facebook": "https://www.facebook.com/hdlne",
+          "instagram": "https://www.instagram.com/ironoakfinancial"
+        }
+      }
+    ]
+  },
+  {
     "title": "NFT / Marketplace",
     "list": [
+      {
+        "name": "ab2.gallery",
+        "site": "https://ab2.gallery/",
+        "is_released": true,
+        "actions": {
+          "twitter": "https://twitter.com/AB2_Gallery",
+          "reddit": "https://www.reddit.com/r/AB2_Gallery/",
+          "discord": "https://discord.com/invite/JDNSd5bQjx"
+        }
+      },
       {
         "name": "Algogems",
         "site": "https://algogems.io/",
         "is_released": true,
         "actions": {
-          "twitter": "https://twitter.com/AlgogemsNFT"
+          "twitter": "https://twitter.com/AlgogemsNFT",
+          "reddit": "https://www.reddit.com/r/Algogems",
+          "telegram": "https://t.me/algogems"
         }
-      },
-      {
-        "name": "og2d",
-        "site": "https://www.og2d.com/",
-        "is_released": true
       },
       {
         "name": "Dahai",
@@ -113,6 +137,29 @@
           "twitter": "https://twitter.com/artdahai",
           "instagram": "https://www.instagram.com/artdahai",
           "facebook": "https://www.facebook.com/DahaiArt"
+        }
+      },
+      {
+        "name": "dartroom",
+        "site": "https://dartroom.xyz/overview",
+        "is_released": true,
+        "actions": {
+          "discord": "discord.gg/2G9BXxdK",
+          "twitter": "https://twitter.com/_Dartroom"
+        }
+      },
+      {
+        "name": "og2d",
+        "site": "https://www.og2d.com/",
+        "is_released": true
+      },
+      {
+        "name": "randgallery",
+        "site": "https://www.randgallery.com/algo-collection/",
+        "is_released": true,
+        "actions": {
+          "twitter": "https://twitter.com/RandGallery",
+          "reddit": "https://www.reddit.com/r/RandGallery/"
         }
       }
     ]
