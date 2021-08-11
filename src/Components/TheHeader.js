@@ -22,9 +22,7 @@ const TheHeader = () => {
     }
   }
 
-  useEffect(() => {
-    handleResize()
-  }, [isOpen])
+  useEffect(handleResize, [isOpen])
 
   useEffect(() => {
     window.addEventListener('resize', handleResize)
