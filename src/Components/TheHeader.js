@@ -1,6 +1,6 @@
 import {Link, NavLink} from "react-router-dom";
 import tw from 'twin.macro'
-import {useContext, useState} from "react";
+import {useContext, useEffect, useState} from "react";
 import ThemeContext from "../Context/ThemeContext";
 import {MenuAlt3Icon} from "@heroicons/react/outline";
 
@@ -13,6 +13,22 @@ const TheHeader = () => {
       return !prev
     });
   }
+
+  const handleResize = () => {
+    if (window.innerWidth <= 640 && isOpen)
+      document.body.classList.add('overflow-hidden')
+    else {
+      document.body.classList.remove('overflow-hidden')
+    }
+  }
+
+  useEffect(() => {
+    handleResize()
+  }, [isOpen])
+
+  useEffect(() => {
+    window.addEventListener('resize', handleResize)
+  })
 
   return (
     <>
@@ -42,7 +58,7 @@ const TheHeader = () => {
         </div>
       </nav>
 
-      <div css={[tw`fixed top-14 inset-x-0 bottom-0 h-full sm:hidden z-40`, isOpen && tw`block`]}
+      <div css={[tw`fixed inset-0 sm:hidden z-40 m-0 p-0`, isOpen && tw`block`]}
            className={[background, text, 'hidden']}>
         <NavList>
           <NavItem to="/" exact>Links</NavItem>
@@ -66,7 +82,7 @@ const NavItem = ({to, children, ...attributes}) => (
   </NavLink>
 )
 
-const NavList = tw.div`flex flex-col flex-1 w-full h-full items-start px-6 justify-center space-y-5 z-10 -mt-20 sm:px-0 sm:mt-0 sm:justify-start sm:space-y-0 sm:flex-row sm:space-x-8 sm:items-center`
+const NavList = tw.div`flex flex-col flex-1 w-full h-full items-start px-6 justify-center space-y-5 z-10 sm:px-0 sm:mt-0 sm:justify-start sm:space-y-0 sm:flex-row sm:space-x-8 sm:items-center`
 
 export default TheHeader
 
