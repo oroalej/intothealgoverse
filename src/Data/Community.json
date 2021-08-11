@@ -46,6 +46,14 @@
         "name": "algorandfaucet",
         "site": "https://algorandfaucet.com/",
         "is_released": true
+      },
+      {
+        "name": "algoworkx",
+        "site": "https://www.algoworkx.com/",
+        "is_released": true,
+        "actions": {
+          "twitter": "https://twitter.com/algoworkx"
+        }
       }
     ]
   },

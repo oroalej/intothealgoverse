@@ -1,6 +1,6 @@
 import tw from "twin.macro";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faDiscord, faGithub, faReddit, faTelegram, faTwitter, faFacebook, faInstagram} from "@fortawesome/free-brands-svg-icons";
+import {faDiscord, faGithub, faReddit, faTelegram, faTwitter, faFacebook, faInstagram, faYoutube, faMedium} from "@fortawesome/free-brands-svg-icons";
 
 const Card = ({children}) => (
   <div tw="box-border block relative rounded-md bg-white border border-solid border-gray-100 shadow-md p-4 lg:p-5">
@@ -44,6 +44,14 @@ const CardActions = ({item}) => (
 
     {item.facebook && <CardButton link={item.facebook} text="Facebook">
       <FontAwesomeIcon icon={faFacebook}/>
+    </CardButton>}
+
+    {item.youtube && <CardButton link={item.youtube} text="Youtube">
+      <FontAwesomeIcon icon={faYoutube}/>
+    </CardButton>}
+
+    {item.medium && <CardButton link={item.medium} text="Medium">
+      <FontAwesomeIcon icon={faMedium}/>
     </CardButton>}
 
     {item.github && <CardButton link={item.github} text="Github">

@@ -40,6 +40,9 @@
         "text": "https://goalseeker.purestake.io/",
         "link": "https://goalseeker.purestake.io/algorand/mainnet",
         "is_official": false
+      },
+      {
+        "link": "https://algoscan.app/"
       }
     ]
   },

@@ -165,29 +165,6 @@
     ]
   },
   {
-    "title": "Real Estate",
-    "list": [
-      {
-        "name": "Lofty.ai",
-        "site": "https://www.lofty.ai/",
-        "is_released": true,
-        "actions": {
-          "telegram": "https://t.me/LoftyPublic"
-        }
-      },
-      {
-        "name": "Pocket Properties",
-        "site": "https://www.pocketpropertiesapp.com/",
-        "is_released": false,
-        "actions": {
-          "facebook": "https://www.facebook.com/pocketpropertiesapp/",
-          "twitter": "https://twitter.com/pocketpropsapp",
-          "instagram": "https://www.instagram.com/pocketpropertiesapp/"
-        }
-      }
-    ]
-  },
-  {
     "title": "Others",
     "list": [
       {
@@ -216,6 +193,55 @@
         "actions": {
           "twitter": "https://twitter.com/PotatoCoins",
           "instagram": "https://www.instagram.com/potatocoins/"
+        }
+      }
+    ]
+  },
+  {
+    "title": "Real Estate",
+    "list": [
+      {
+        "name": "Lofty.ai",
+        "site": "https://www.lofty.ai/",
+        "is_released": true,
+        "actions": {
+          "telegram": "https://t.me/LoftyPublic"
+        }
+      },
+      {
+        "name": "Pocket Properties",
+        "site": "https://www.pocketpropertiesapp.com/",
+        "is_released": false,
+        "actions": {
+          "facebook": "https://www.facebook.com/pocketpropertiesapp/",
+          "twitter": "https://twitter.com/pocketpropsapp",
+          "instagram": "https://www.instagram.com/pocketpropertiesapp/"
+        }
+      }
+    ]
+  },
+  {
+    "title": "Social Media",
+    "list": [
+      {
+        "name": "Props",
+        "site": "https://www.props.xyz/",
+        "is_released": true,
+        "actions": {
+          "telegram": "https://t.me/propsproject",
+          "twitter": "https://twitter.com/PROPSproject",
+          "github": "https://github.com/PROPSProject",
+          "discord": "https://discord.com/invite/daNYaGy",
+          "youtube": "https://www.youtube.com/channel/UCGT1j-LLcqAp238aO309F_g",
+          "medium": "https://blog.propsproject.com/"
+        }
+      },
+      {
+        "name": "Kangu",
+        "site": "https://www.kangu.app/",
+        "is_released": false,
+        "actions": {
+          "twitter": "https://twitter.com/kangu_network"
         }
       }
     ]
