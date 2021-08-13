@@ -161,6 +161,14 @@
           "twitter": "https://twitter.com/RandGallery",
           "reddit": "https://www.reddit.com/r/RandGallery/"
         }
+      },
+      {
+        "name": "zestbloom",
+        "site": "https://www.zestbloom.io/",
+        "actions": {
+          "twitter": "https://twitter.com/ZestBloom",
+          "discord": "https://discord.com/invite/DAPhnktB55"
+        }
       }
     ]
   },
