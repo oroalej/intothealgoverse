@@ -5,7 +5,7 @@ import DonateTitle from "./DonateTitle";
 const TheDonate = ({backgroundColor}) => {
   return (
     <div css={[tw`bg-opacity-15`]} className={backgroundColor}>
-      <div css={tw`py-16 text-center container mx-auto`}>
+      <div css={tw`pt-16 pb-5 text-center container mx-auto`}>
         <DonateTitle />
         <ContributorList/>
       </div>
