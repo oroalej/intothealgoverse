@@ -1,33 +1,10 @@
 import DefaultLayout from "../Layouts/DefaultLayout";
 import tw from "twin.macro";
 import Themes from "../Data/Themes";
-import oroalej from "../Images/oroalej.jfif"
-import {useState} from "react";
-import {DuplicateIcon} from "@heroicons/react/solid";
+import ContributorList from "../Components/ContributorList";
+import DonateTitle from "../Components/DonateTitle";
 
 const About = () => {
-  const [isCopied, setIsCopied] = useState(false)
-  let timer = null;
-
-  const copyAddress = () => {
-    if (timer) {
-      clearTimeout(timer)
-    }
-
-    const input = document.createElement("textarea");
-    input.value = 'JD5DBO5BGVKQKFX7MQ7VIPBOQAEJB4MYGMUOJEDWSTUFWKOB7OAWMEQRPM';
-    document.body.appendChild(input);
-    input.select();
-    document.execCommand("Copy");
-    input.remove();
-
-    setIsCopied(true);
-
-    timer = setTimeout(() => (
-      setIsCopied(false)
-    ), 2500)
-  }
-
   return (
     <DefaultLayout theme={Themes.about}>
 
@@ -35,7 +12,7 @@ const About = () => {
         <div tw="relative">
           <h1 tw="text-2xl uppercase text-gray-700">About</h1>
 
-          <div tw="font-light lg:w-2/3 mx-auto my-4 text-base text-left">
+          <div tw="font-light lg:w-2/3 mx-auto my-4 text-base text-center">
             <p className="mb-1">Intothealgoverse is an unofficial curation of tools, projects, and resources that are
               relevant to the <a
                 href="https://www.algorand.com/" target="_blank" rel="noreferrer"
@@ -43,37 +20,20 @@ const About = () => {
               Algorand ecosystem easily and to assist in making projects known to the community.
             </p>
 
-            <p className="mb-1">For any feedback, bug finds, suggestions, and collaboration inquiries, please contact me in discord
+            <p className="mb-1">For any feedback, bug finds, suggestions, and collaboration inquiries, please contact me
+              in discord
               <span tw="font-bold mx-1">@oroalej#3957</span>
             </p>
           </div>
         </div>
 
-        <div tw="relative space-y-5">
-          <h1 tw="text-2xl uppercase text-gray-700">Contributors</h1>
+        <div tw="relative">
+          <h2 tw="mb-5 text-2xl uppercase text-gray-700">Contributors</h2>
 
-          <p className="font-light text-base">Any amount of ALGO or YLDY donations are welcome</p>
-
-          <div tw="flex flex-row gap-4 justify-center">
-            <div onClick={copyAddress}
-                 tw="rounded-3xl text-gray-700 p-5 bg-white shadow-lg relative cursor-pointer transform hover:scale-105 transition-transform duration-200">
-              <h3 tw="font-bold text-lg">oroalej</h3>
-
-              <div tw="w-48 h-48">
-                <img src={oroalej} alt="oroalej" tw="w-full object-contain"/>
-              </div>
-
-              <p tw="text-sm text-gray-800 capitalize -mt-2 inline-flex flex-row items-center">
-                <DuplicateIcon tw="h-4.5 w-4.5"/>
-                <span tw="mx-1 block">Copy Address</span>
-              </p>
-
-              {isCopied && <p tw="font-bold text-sm text-gray-900 uppercase mt-4">Copied</p>}
-            </div>
-          </div>
+          <DonateTitle />
+          <ContributorList/>
         </div>
       </div>
-
     </DefaultLayout>
   )
 }

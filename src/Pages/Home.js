@@ -2,9 +2,10 @@ import DefaultLayout from "../Layouts/DefaultLayout";
 import TheBanner from "../Components/TheBanner";
 import tw from 'twin.macro'
 import Links from "../Data/Home.json";
-import {useEffect, useState} from "react";
+import React, {useEffect, useState} from "react";
 import themeData from "../Data/Themes";
 import Skeleton from "../Components/Skeleton";
+import TheDonate from "../Components/TheDonate";
 
 const Home = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -78,6 +79,8 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+      <TheDonate backgroundColor={defaultTheme.background} />
     </DefaultLayout>
   )
 }

@@ -5,10 +5,11 @@ import DataJson from "../../Data/Community.json";
 import Card from "../../Components/Card";
 import ProjectList, {ProjectCardSkeleton} from "../../Components/Project";
 import {camelCase} from "lodash"
-import {useEffect, useState} from "react";
+import React, {useEffect, useState} from "react";
 import TheSearch from "../../Components/TheSearch";
 import ThemeData from "../../Data/Themes";
 import Skeleton from "../../Components/Skeleton";
+import TheDonate from "../../Components/TheDonate";
 
 const CommunityIndex = () => {
   const [data, setData] = useState(DataJson)
@@ -70,6 +71,8 @@ const CommunityIndex = () => {
           }
         </div>
       </div>
+
+      <TheDonate backgroundColor={ThemeData.community.background}/>
     </DefaultLayout>
   )
 }
