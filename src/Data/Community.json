@@ -53,7 +53,10 @@
       {
         "name": "algorandfaucet",
         "site": "https://algorandfaucet.com/",
-        "is_released": true
+        "is_released": true,
+        "actions": {
+          "twitter": "https://twitter.com/algorandfaucet"
+        }
       }
     ]
   },

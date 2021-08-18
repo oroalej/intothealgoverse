@@ -3,28 +3,6 @@
     "title": "DeFi",
     "list": [
       {
-        "name": "Yieldly.Finance",
-        "site": "https://yieldly.finance/",
-        "is_released": true,
-        "actions": {
-          "reddit": "https://www.reddit.com/r/yieldly/",
-          "telegram": "https://t.me/yieldly",
-          "twitter": "https://twitter.com/yieldlyfinance"
-        }
-      },
-      {
-        "name": "Tinyman",
-        "site": "https://tinyman.org/",
-        "is_released": false,
-        "actions": {
-          "github": "https://github.com/tinymanorg",
-          "reddit": "https://www.reddit.com/r/Tinyman/",
-          "discord": "https://discord.gg/ZYVKmDf4",
-          "twitter": "https://twitter.com/tinymanorg",
-          "telegram": "https://t.me/tinymanofficial"
-        }
-      },
-      {
         "name": "Algodex",
         "site": "https://about.algodex.com/",
         "is_released": false,
@@ -32,6 +10,36 @@
           "reddit": "https://www.reddit.com/r/Algodex/",
           "telegram": "https://t.me/algodex",
           "twitter": "https://twitter.com/AlgodexOfficial"
+        }
+      },
+      {
+        "name": "Algofi",
+        "site": "https://www.reddit.com/r/algofi/",
+        "is_released": false,
+        "actions": {
+          "reddit": "https://www.reddit.com/r/algofi/",
+          "telegram": "https://t.me/algofiorg",
+          "discord": "https://discord.com/invite/YG9Zqay9tR",
+          "twitter": "https://twitter.com/algofiorg"
+        }
+      },
+      {
+        "name": "Algomint.io",
+        "site": "https://www.algomint.io/",
+        "is_released": false,
+        "actions": {
+          "twitter": "https://twitter.com/Algomint_io",
+          "telegram": "https://t.me/Algomint2"
+        }
+      },
+      {
+        "name": "Yieldly.Finance",
+        "site": "https://yieldly.finance/",
+        "is_released": true,
+        "actions": {
+          "reddit": "https://www.reddit.com/r/yieldly/",
+          "telegram": "https://t.me/yieldly",
+          "twitter": "https://twitter.com/yieldlyfinance"
         }
       },
       {
@@ -45,17 +53,15 @@
         }
       },
       {
-        "name": "Algobank",
-        "site": "https://www.algobank.finance/",
-        "is_released": false
-      },
-      {
-        "name": "Algomint.io",
-        "site": "https://www.algomint.io/",
+        "name": "Tinyman",
+        "site": "https://tinyman.org/",
         "is_released": false,
         "actions": {
-          "twitter": "https://twitter.com/Algomint_io",
-          "telegram": "https://t.me/Algomint2"
+          "github": "https://github.com/tinymanorg",
+          "reddit": "https://www.reddit.com/r/Tinyman/",
+          "discord": "https://discord.gg/ZYVKmDf4",
+          "twitter": "https://twitter.com/tinymanorg",
+          "telegram": "https://t.me/tinymanofficial"
         }
       }
     ]
