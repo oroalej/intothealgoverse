@@ -10,6 +10,9 @@ module.exports = {
   theme: {
     extend: {
       minWidth: ['hover', 'focus'],
+      backgroundOpacity: theme => ({
+        15: '.15'
+      }),
       minHeight: theme => ({
         96: '24rem'
       }),

@@ -9,6 +9,7 @@ import {camelCase} from "lodash"
 import DataJson from "../../Data/Dapps.json";
 import ThemeData from "../../Data/Themes";
 import Skeleton from "../../Components/Skeleton";
+import TheDonate from "../../Components/TheDonate";
 
 const DappIndex = () => {
   const [data, setData] = useState(DataJson)
@@ -69,6 +70,8 @@ const DappIndex = () => {
           ))}
         </div>
       </div>
+
+      <TheDonate backgroundColor={ThemeData.dapp.background}/>
     </DefaultLayout>
   )
 }
