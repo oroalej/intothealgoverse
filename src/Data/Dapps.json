@@ -55,7 +55,7 @@
       {
         "name": "Tinyman",
         "site": "https://tinyman.org/",
-        "is_released": false,
+        "is_released": true,
         "actions": {
           "github": "https://github.com/tinymanorg",
           "reddit": "https://www.reddit.com/r/Tinyman/",
@@ -126,6 +126,15 @@
         }
       },
       {
+        "name": "Abris.io",
+        "site": "https://abris.io/",
+        "is_released": true,
+        "actions": {
+          "twitter": "https://twitter.com/Abris_io",
+          "reddit": "https://www.reddit.com/user/Abris_io"
+        }
+      },
+      {
         "name": "Algogems",
         "site": "https://algogems.io/",
         "is_released": true,
@@ -133,6 +142,19 @@
           "twitter": "https://twitter.com/AlgogemsNFT",
           "reddit": "https://www.reddit.com/r/Algogems",
           "telegram": "https://t.me/algogems"
+        }
+      },
+      {
+        "name": "Aorist",
+        "site": "https://aorist.art/",
+        "is_released": false
+      },
+      {
+        "name": "Artsquare.io",
+        "site": "https://artsquare.io/",
+        "is_released": false,
+        "actions": {
+          "twitter": "https://twitter.com/artsquareio?lang=en"
         }
       },
       {
@@ -155,8 +177,18 @@
         }
       },
       {
+        "name": "Kollektor.io",
+        "site": "https://kollektor.io/",
+        "is_released": false
+      },
+      {
         "name": "og2d",
         "site": "https://www.og2d.com/",
+        "is_released": true
+      },
+      {
+        "name": "nftexplorer",
+        "site": "https://www.nftexplorer.app/",
         "is_released": true
       },
       {
