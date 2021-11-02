@@ -1,5 +1,19 @@
 [
   {
+    "title": "Communications",
+    "list":[
+      {
+        "name": "Alty",
+        "site": "https://alty.com/",
+        "is_released": false,
+        "actions": {
+          "twitter": "https://twitter.com/altychatbot",
+          "facebook": "https://www.facebook.com/AltyBot/"
+        }
+      }
+    ]
+  },
+  {
     "title": "DeFi",
     "list": [
       {
@@ -53,6 +67,16 @@
         }
       },
       {
+        "name": "Mese.io",
+        "site": "https://testnet.mese.io/",
+        "is_released": false,
+        "actions": {
+          "discord": "https://discord.gg/Bne9s9t6f8",
+          "twitter": "https://twitter.com/mesemicroequity",
+          "telegram": "https://t.me/MESEmicroequity"
+        }
+      },
+      {
         "name": "Tinyman",
         "site": "https://tinyman.org/",
         "is_released": true,
@@ -70,6 +94,31 @@
     "title": "Gaming",
     "list": [
       {
+        "name": "Alchemon",
+        "site": "https://alchemon.net/",
+        "is_released": false,
+        "actions": {
+          "telegram": "https://t.me/joinchat/WbyxkfAyJDZmMzE5",
+          "twitter": "https://twitter.com/AlchemonNFT",
+          "discord": "https://discord.gg/qKtk4XGXyS"
+        }
+      },
+      {
+        "name": "Legend of mitra",
+        "site": "https://legendsofmitra.com/",
+        "is_released": false,
+        "actions": {
+          "twitter": "https://twitter.com/LegendsOfMitra",
+          "telegram": "https://t.me/LegendsOfMitra",
+          "discord": "https://discord.com/invite/KPjju5vhAB"
+        }
+      },
+      {
+        "name":"Sequoia Games",
+        "site": "https://sequoiagames.com/",
+        "is_released": false
+      },
+      {
         "name": "Smilecoin",
         "site": "https://smilecoin.us/",
         "is_released": false,
@@ -78,6 +127,26 @@
           "discord": "https://discord.gg/SnbpdnDzUn",
           "twitter": "https://twitter.com/smile_coin1",
           "telegram": "https://t.me/smilecoin_invite"
+        }
+      },
+      {
+        "name": "Xfinite",
+        "site": "https://www.xfinite.io/",
+        "is_released": false,
+        "actions": {
+          "twitter": "https://twitter.com/XfiniteOfficial",
+          "facebook": "https://www.facebook.com/XfiniteOfficial/",
+          "telegram": "https://t.me/XfiniteOfficialCommunity"
+        }
+      },
+      {
+        "name": "Zone",
+        "site": "https://www.zone.game/",
+        "is_released": false,
+        "actions": {
+          "twitter": "https://twitter.com/xtz_esports?lang=en",
+          "telegram": "https://t.me/ZoneByXTZ",
+          "discord": "https://discord.com/invite/rKFBUhHV8B"
         }
       }
     ]
@@ -232,7 +301,8 @@
           "telegram": "https://t.me/planetwatch",
           "instagram": "https://www.instagram.com/planetwatchsas/"
         }
-      }, {
+      },
+      {
         "name": "PotatoCoin",
         "site": "https://potatocoin.co/",
         "is_released": true,
@@ -281,14 +351,6 @@
           "youtube": "https://www.youtube.com/channel/UCGT1j-LLcqAp238aO309F_g",
           "medium": "https://blog.propsproject.com/"
         }
-      },
-      {
-        "name": "Kangu",
-        "site": "https://www.kangu.app/",
-        "is_released": false,
-        "actions": {
-          "twitter": "https://twitter.com/kangu_network"
-        }
       }
     ]
   },
@@ -302,6 +364,15 @@
         "actions": {
           "twitter": "https://twitter.com/FortiorB",
           "discord": "https://discord.gg/Trmn2Z6d"
+        }
+      },
+      {
+        "name": "QVote",
+        "site": "https://www.qvote.co.uk/",
+        "is_released": true,
+        "actions": {
+          "twitter": "https://twitter.com/qvote_?lang=en",
+          "discord": "https://discord.gg/AWt6k9XhpT"
         }
       }
     ]
