@@ -96,16 +96,6 @@
         "name": "algosail",
         "site": "https://app.algosail.xyz/",
         "status": "live"
-      },
-      {
-        "name": "asastats",
-        "site": "https://www.asastats.com/",
-        "status": "live",
-        "actions": {
-          "twitter": "https://twitter.com/asastatscom",
-          "discord": "https://discord.com/invite/bkfBwdgbSu",
-          "reddit": "https://www.reddit.com/r/asastats/"
-        }
       }
     ]
   },

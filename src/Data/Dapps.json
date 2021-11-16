@@ -25,6 +25,16 @@
         }
       },
       {
+        "name": "asastats",
+        "site": "https://www.asastats.com/",
+        "status": "live",
+        "actions": {
+          "twitter": "https://twitter.com/asastatscom",
+          "discord": "https://discord.com/invite/bkfBwdgbSu",
+          "reddit": "https://www.reddit.com/r/asastats/"
+        }
+      },
+      {
         "name": "tinychart",
         "site": "https://tinychart.org/",
         "status": "live",
@@ -57,6 +67,7 @@
       {
         "name": "Algodex",
         "site": "https://about.algodex.com/",
+        "status": "test",
         "actions": {
           "reddit": "https://www.reddit.com/r/Algodex/",
           "telegram": "https://t.me/algodex",
@@ -167,10 +178,6 @@
       {
         "name":"Sequoia Games",
         "site": "https://sequoiagames.com/"
-      },
-      {
-        "name": "shosha",
-        "site": "https://shosha.io/"
       },
       {
         "name": "Smilecoin",
