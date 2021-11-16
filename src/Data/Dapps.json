@@ -5,10 +5,48 @@
       {
         "name": "Alty",
         "site": "https://alty.com/",
-        "is_released": false,
         "actions": {
           "twitter": "https://twitter.com/altychatbot",
           "facebook": "https://www.facebook.com/AltyBot/"
+        }
+      }
+    ]
+  },
+  {
+    "title": "Charts",
+    "list": [
+      {
+        "name": "algodoggo",
+        "site": "https://www.algodoggo.com/",
+        "status": "live",
+        "actions": {
+          "twitter": "https://twitter.com/AlgoDoggo",
+          "discord": "https://discord.com/invite/6xkJbvrXRG"
+        }
+      },
+      {
+        "name": "tinychart",
+        "site": "https://tinychart.org/",
+        "status": "live",
+        "actions": {
+          "telegram": "https://t.me/tinychart/",
+          "twitter": "https://twitter.com/tinychartorg/",
+          "github": "https://github.com/tinychart/",
+          "reddit": "https://www.reddit.com/r/tinychart/"
+        }
+      }
+    ]
+  },
+  {
+    "title": "DAO",
+    "list": [
+      {
+        "name": "xBacked",
+        "site": "https://www.xbacked.io/",
+        "actions": {
+          "github": "https://github.com/xBacked-DAO",
+          "telegram": "https://t.me/joinchat/RvRriF-5hYYzYjc1",
+          "twitter": "https://twitter.com/xbacked"
         }
       }
     ]
@@ -19,7 +57,6 @@
       {
         "name": "Algodex",
         "site": "https://about.algodex.com/",
-        "is_released": false,
         "actions": {
           "reddit": "https://www.reddit.com/r/Algodex/",
           "telegram": "https://t.me/algodex",
@@ -29,7 +66,7 @@
       {
         "name": "Algofi",
         "site": "https://www.reddit.com/r/algofi/",
-        "is_released": false,
+        "status": "test",
         "actions": {
           "reddit": "https://www.reddit.com/r/algofi/",
           "telegram": "https://t.me/algofiorg",
@@ -40,16 +77,25 @@
       {
         "name": "Algomint.io",
         "site": "https://www.algomint.io/",
-        "is_released": false,
+        "status": "test",
         "actions": {
           "twitter": "https://twitter.com/Algomint_io",
           "telegram": "https://t.me/Algomint2"
         }
       },
       {
+        "name": "Arcc.one",
+        "site": "https://arcc.one//",
+        "status": "live",
+        "actions": {
+          "twitter": "https://twitter.com/sinjindavidjung",
+          "telegram": "https://t.me/arccprice"
+        }
+      },
+      {
         "name": "Yieldly.Finance",
         "site": "https://yieldly.finance/",
-        "is_released": true,
+        "status": "live",
         "actions": {
           "reddit": "https://www.reddit.com/r/yieldly/",
           "telegram": "https://t.me/yieldly",
@@ -57,9 +103,17 @@
         }
       },
       {
+        "name": "exa.finance",
+        "site": "https://www.exa.finance/",
+        "status": "test",
+        "actions": {
+          "twitter": "https://twitter.com/exafinance",
+          "discord": "https://discord.com/invite/eD5cdFsHkS"
+        }
+      },
+      {
         "name": "Folks.Finance",
         "site": "https://folks.finance/",
-        "is_released": false,
         "actions": {
           "discord": "https://discord.gg/V9JX5zzp5C",
           "telegram": "https://t.me/FolksFinance",
@@ -69,7 +123,6 @@
       {
         "name": "Mese.io",
         "site": "https://testnet.mese.io/",
-        "is_released": false,
         "actions": {
           "discord": "https://discord.gg/Bne9s9t6f8",
           "twitter": "https://twitter.com/mesemicroequity",
@@ -79,7 +132,7 @@
       {
         "name": "Tinyman",
         "site": "https://tinyman.org/",
-        "is_released": true,
+        "status": "live",
         "actions": {
           "github": "https://github.com/tinymanorg",
           "reddit": "https://www.reddit.com/r/Tinyman/",
@@ -96,7 +149,6 @@
       {
         "name": "Alchemon",
         "site": "https://alchemon.net/",
-        "is_released": false,
         "actions": {
           "telegram": "https://t.me/joinchat/WbyxkfAyJDZmMzE5",
           "twitter": "https://twitter.com/AlchemonNFT",
@@ -106,7 +158,6 @@
       {
         "name": "Legend of mitra",
         "site": "https://legendsofmitra.com/",
-        "is_released": false,
         "actions": {
           "twitter": "https://twitter.com/LegendsOfMitra",
           "telegram": "https://t.me/LegendsOfMitra",
@@ -115,13 +166,15 @@
       },
       {
         "name":"Sequoia Games",
-        "site": "https://sequoiagames.com/",
-        "is_released": false
+        "site": "https://sequoiagames.com/"
+      },
+      {
+        "name": "shosha",
+        "site": "https://shosha.io/"
       },
       {
         "name": "Smilecoin",
         "site": "https://smilecoin.us/",
-        "is_released": false,
         "actions": {
           "reddit": "https://www.reddit.com/r/SmileCoin/",
           "discord": "https://discord.gg/SnbpdnDzUn",
@@ -130,9 +183,16 @@
         }
       },
       {
+        "name": "starsightlabs",
+        "site": "https://starsightlabs.com/",
+        "actions": {
+          "twitter": "https://twitter.com/starsightlabs",
+          "discord": "https://discord.com/invite/K9sdhbUHPW"
+        }
+      },
+      {
         "name": "Xfinite",
         "site": "https://www.xfinite.io/",
-        "is_released": false,
         "actions": {
           "twitter": "https://twitter.com/XfiniteOfficial",
           "facebook": "https://www.facebook.com/XfiniteOfficial/",
@@ -142,7 +202,6 @@
       {
         "name": "Zone",
         "site": "https://www.zone.game/",
-        "is_released": false,
         "actions": {
           "twitter": "https://twitter.com/xtz_esports?lang=en",
           "telegram": "https://t.me/ZoneByXTZ",
@@ -157,7 +216,6 @@
       {
         "name": "Opulous",
         "site": "https://opulous.org/",
-        "is_released": false,
         "actions": {
           "twitter": "https://twitter.com/opulousapp",
           "telegram": "https://t.me/opulousapp"
@@ -171,7 +229,6 @@
       {
         "name": "HEADLINECrypto",
         "site": "https://headline.dev/crypto/",
-        "is_released": false,
         "actions": {
           "twitter": "https://twitter.com/headline_crypto",
           "reddit": "https://www.reddit.com/r/HEADLINECrypto",
@@ -182,12 +239,90 @@
     ]
   },
   {
-    "title": "NFT / Marketplace",
+    "title": "NFT",
     "list": [
+      {
+        "name": "al goanna",
+        "site": "https://algoanna.com/",
+        "actions": {
+          "twitter": "https://twitter.com/al_goanna",
+          "instagram": "https://www.instagram.com/al_goanna/",
+          "telegram": "https://t.me/algoanna",
+          "discord": "https://discord.com/invite/kmAd87KERp"
+        }
+      },
+      {
+        "name": "beargorand",
+        "site": "https://beargorand.com/",
+        "actions": {
+          "twitter": "https://twitter.com/beargorand",
+          "telegram": "https://t.me/beargorand",
+          "reddit": "https://www.reddit.com/r/beargorand/"
+        }
+      },
+      {
+        "name": "yieldlings",
+        "site": "https://yieldlings.com/",
+        "actions": {
+          "telegram": "https://t.me/joinchat/CpF9NGBzAIQ5NjY0"
+        }
+      },
+      {
+        "name": "M.N.G.O",
+        "site": "https://mngo.xyz/",
+        "actions": {
+          "discord": "https://discord.com/invite/KwUAYnFZX4",
+          "twitter": "https://twitter.com/yieldling"
+        }
+      },
+      {
+        "name": "mafialgonft",
+        "site": "https://mafialgonft.com/",
+        "actions": {
+          "twitter": "https://twitter.com/mafialgo",
+          "discord": "https://discord.com/invite/AmB6pA6G6q",
+          "instagram": "https://www.instagram.com/mafialgo_official/",
+          "reddit": "https://www.reddit.com/user/Mafialgo/"
+        }
+      },
+      {
+        "name": "mutinous",
+        "site": "https://mutinousnft.com/",
+        "actions": {
+          "twitter": "https://twitter.com/MutinousNFT",
+          "instagram": "https://www.instagram.com/mutinousnft/"
+        }
+      },
+      {
+        "name": "pixelguys",
+        "site": "https://pixelguysnft.com/",
+        "actions": {
+          "twitter": "https://twitter.com/PixelGuys_algo/",
+          "discord": "https://discord.com/invite/bqjku9ckM5"
+        }
+      }
+    ]
+  },
+  {
+    "title": "Marketplace",
+    "list": [
+      {
+        "name": "algomallnft",
+        "site": "https://algomallnft.com/",
+        "actions": {
+          "youtube": "https://www.youtube.com/channel/UCRwjtnhZ1Iu6fH3LAncnx6Q",
+          "telegram": "https://t.me/AlgoMallGroup"
+        }
+      },
+      {
+        "name": "algoxnft",
+        "site": "https://algoxnft.com/listings/live",
+        "status": "live"
+      },
       {
         "name": "ab2.gallery",
         "site": "https://ab2.gallery/",
-        "is_released": true,
+        "status": "live",
         "actions": {
           "twitter": "https://twitter.com/AB2_Gallery",
           "reddit": "https://www.reddit.com/r/AB2_Gallery/",
@@ -197,7 +332,7 @@
       {
         "name": "Abris.io",
         "site": "https://abris.io/",
-        "is_released": true,
+        "status": "live",
         "actions": {
           "twitter": "https://twitter.com/Abris_io",
           "reddit": "https://www.reddit.com/user/Abris_io"
@@ -206,7 +341,7 @@
       {
         "name": "Algogems",
         "site": "https://algogems.io/",
-        "is_released": true,
+        "status": "live",
         "actions": {
           "twitter": "https://twitter.com/AlgogemsNFT",
           "reddit": "https://www.reddit.com/r/Algogems",
@@ -215,13 +350,11 @@
       },
       {
         "name": "Aorist",
-        "site": "https://aorist.art/",
-        "is_released": false
+        "site": "https://aorist.art/"
       },
       {
         "name": "Artsquare.io",
         "site": "https://artsquare.io/",
-        "is_released": false,
         "actions": {
           "twitter": "https://twitter.com/artsquareio?lang=en"
         }
@@ -229,7 +362,7 @@
       {
         "name": "Dahai",
         "site": "https://www.dahai.uk",
-        "is_released": true,
+        "status": "live",
         "actions": {
           "twitter": "https://twitter.com/artdahai",
           "instagram": "https://www.instagram.com/artdahai",
@@ -239,31 +372,38 @@
       {
         "name": "dartroom",
         "site": "https://dartroom.xyz/overview",
-        "is_released": true,
+        "status": "live",
         "actions": {
           "discord": "discord.gg/2G9BXxdK",
           "twitter": "https://twitter.com/_Dartroom"
         }
       },
       {
+        "name": "gifeconomy",
+        "site": "https://gifeconomy.com/",
+        "status": "live",
+        "actions": {
+          "discord": "https://discord.com/invite/dQnmKAUBFE"
+        }
+      },
+      {
         "name": "Kollektor.io",
-        "site": "https://kollektor.io/",
-        "is_released": false
+        "site": "https://kollektor.io/"
       },
       {
         "name": "og2d",
         "site": "https://www.og2d.com/",
-        "is_released": true
+        "status": "live"
       },
       {
         "name": "nftexplorer",
         "site": "https://www.nftexplorer.app/",
-        "is_released": true
+        "status": "live"
       },
       {
         "name": "randgallery",
         "site": "https://www.randgallery.com/algo-collection/",
-        "is_released": true,
+        "status": "live",
         "actions": {
           "twitter": "https://twitter.com/RandGallery",
           "reddit": "https://www.reddit.com/r/RandGallery/"
@@ -285,7 +425,6 @@
       {
         "name": "Venue.one",
         "site": "https://venue.one/",
-        "is_released": false,
         "actions": {
           "telegram": "https://t.me/venuemarkets",
           "twitter": "https://twitter.com/VenueMarkets"
@@ -294,7 +433,7 @@
       {
         "name": "PlanetWatch",
         "site": "https://planetwatch.io/",
-        "is_released": true,
+        "status": "live",
         "actions": {
           "facebook": "https://www.facebook.com/PlanetWatch-106206814422901/",
           "twitter": "https://twitter.com/planetwatchsas",
@@ -305,10 +444,36 @@
       {
         "name": "PotatoCoin",
         "site": "https://potatocoin.co/",
-        "is_released": true,
+        "status": "live",
         "actions": {
           "twitter": "https://twitter.com/PotatoCoins",
           "instagram": "https://www.instagram.com/potatocoins/"
+        }
+      },
+      {
+        "name": "Board",
+        "site": "https://www.boardofficial.com/",
+        "actions": {
+          "twitter": "https://twitter.com/boardalgo",
+          "telegram": "https://t.me/boardannouncements",
+          "discord": "https://discord.com/invite/U7r3C4VbbJ",
+          "medium": "https://medium.com/@boardofficial"
+        }
+      }
+    ]
+  },
+  {
+    "title": "Oracles",
+    "list": [
+      {
+        "name": "Razor.network",
+        "site": "https://razor.network/",
+        "actions": {
+          "telegram": "https://t.me/razornetwork",
+          "twitter": "https://twitter.com/razor_network",
+          "github": "https://github.com/razor-network",
+          "discord": "https://discord.com/invite/Js4pBny2rw",
+          "medium": "https://medium.com/razor-network"
         }
       }
     ]
@@ -319,7 +484,7 @@
       {
         "name": "Lofty.ai",
         "site": "https://www.lofty.ai/",
-        "is_released": true,
+        "status": "live",
         "actions": {
           "telegram": "https://t.me/LoftyPublic"
         }
@@ -327,7 +492,6 @@
       {
         "name": "Pocket Properties",
         "site": "https://www.pocketpropertiesapp.com/",
-        "is_released": false,
         "actions": {
           "facebook": "https://www.facebook.com/pocketpropertiesapp/",
           "twitter": "https://twitter.com/pocketpropsapp",
@@ -342,7 +506,7 @@
       {
         "name": "Props",
         "site": "https://www.props.xyz/",
-        "is_released": true,
+        "status": "live",
         "actions": {
           "telegram": "https://t.me/propsproject",
           "twitter": "https://twitter.com/PROPSproject",
@@ -350,6 +514,32 @@
           "discord": "https://discord.com/invite/daNYaGy",
           "youtube": "https://www.youtube.com/channel/UCGT1j-LLcqAp238aO309F_g",
           "medium": "https://blog.propsproject.com/"
+        }
+      },
+      {
+        "name": "thelovechain",
+        "site": "https://www.thelovechain.io/",
+        "actions": {
+          "telegram": "https://t.me/Lovechaintg",
+          "discord": "https://discord.com/invite/JCxMcZN9Ku",
+          "twitter": "https://twitter.com/the_lovechain",
+          "instagram": "https://www.instagram.com/thelovechain.io/",
+          "facebook": "https://www.facebook.com/thelovechain.io"
+        }
+      }
+    ]
+  },
+  {
+    "title": "Stablecoin",
+    "list": [
+      {
+        "name": "algogard",
+        "site": "https://www.algogard.com/",
+        "actions": {
+          "twitter": "https://twitter.com/algogard",
+          "reddit": "https://www.reddit.com/r/AlgoGARD/",
+          "discord": "https://discord.com/invite/y6rTK5S22a",
+          "telegram": "https://t.me/AlgoGARD"
         }
       }
     ]
@@ -360,7 +550,6 @@
       {
         "name": "Fortior Blockchain",
         "site": "https://fortiorblockchain.com/",
-        "is_released": false,
         "actions": {
           "twitter": "https://twitter.com/FortiorB",
           "discord": "https://discord.gg/Trmn2Z6d"
@@ -369,7 +558,7 @@
       {
         "name": "QVote",
         "site": "https://www.qvote.co.uk/",
-        "is_released": true,
+        "status": "live",
         "actions": {
           "twitter": "https://twitter.com/qvote_?lang=en",
           "discord": "https://discord.gg/AWt6k9XhpT"

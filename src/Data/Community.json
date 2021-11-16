@@ -5,7 +5,7 @@
       {
         "name": "wallet.myalgo",
         "site": "https://wallet.myalgo.com/",
-        "is_released": true,
+        "status": "live",
         "actions": {
           "twitter": "https://twitter.com/algo_explorer"
         }
@@ -18,12 +18,12 @@
       {
         "name": "Algocurator",
         "site": "https://www.algocurator.com/",
-        "is_released": true
+        "status": "live"
       },
       {
         "name": "algoworkx",
         "site": "https://www.algoworkx.com/",
-        "is_released": true,
+        "status": "live",
         "actions": {
           "twitter": "https://twitter.com/algoworkx"
         }
@@ -31,7 +31,7 @@
       {
         "name": "INTO-THE-ALGOVERSE",
         "site": "https://oroalej.github.io/intothealgoverse/#/",
-        "is_released": true,
+        "status": "live",
         "actions": {
           "github": "https://github.com/oroalej/intothealgoverse"
         }
@@ -44,18 +44,67 @@
       {
         "name": "algooptimizer",
         "site": "https://algooptimizer.com/",
-        "is_released": true,
+        "status": "live",
         "actions": {
           "discord": "https://discord.gg/Wr2KDKFb7v",
           "github": "https://github.com/algooptimizer/"
         }
       },
       {
+        "name": "algodrops",
+        "site": "https://algodrops.org/",
+        "status": "live"
+      },
+      {
         "name": "algorandfaucet",
-        "site": "https://algorandfaucet.com/",
-        "is_released": true,
+        "site": "https://www.reddit.com/r/algorand/comments/qc7cwb/faucet_coming_to_an_end/",
+        "status": "retired",
         "actions": {
           "twitter": "https://twitter.com/algorandfaucet"
+        }
+      },
+      {
+        "name": "thealgofaucet",
+        "site": "https://thealgofaucet.com/",
+        "status": "live"
+      }
+    ]
+  },
+  {
+    "title": "Utilities",
+    "list": [
+      {
+        "name": "Yieldly Estimator",
+        "site": "https://yldy-estimator.joshlmao.com/staking-pools",
+        "status": "live",
+        "actions": {
+          "github": "https://github.com/joshlmao/ydly-calc",
+          "twitter": "https://twitter.com/joshlmao"
+        }
+      },
+      {
+        "name": "algovanity",
+        "site": "https://algovanity.com/",
+        "status": "live"
+      }
+    ]
+  },
+  {
+    "title": "Charting",
+    "list": [
+      {
+        "name": "algosail",
+        "site": "https://app.algosail.xyz/",
+        "status": "live"
+      },
+      {
+        "name": "asastats",
+        "site": "https://www.asastats.com/",
+        "status": "live",
+        "actions": {
+          "twitter": "https://twitter.com/asastatscom",
+          "discord": "https://discord.com/invite/bkfBwdgbSu",
+          "reddit": "https://www.reddit.com/r/asastats/"
         }
       }
     ]
@@ -66,7 +115,7 @@
       {
         "name": "algoexplorer",
         "site": "https://algoexplorer.io/",
-        "is_released": true,
+        "status": "live",
         "actions": {
           "twitter": "https://twitter.com/algo_explorer"
         }
@@ -74,11 +123,16 @@
       {
         "name": "Goalseeker",
         "site": "https://goalseeker.purestake.io/algorand/mainnet",
-        "is_released": true,
+        "status": "live",
         "actions": {
           "twitter": "https://twitter.com/purestakeco",
           "telegram": "https://t.me/PureStake"
         }
+      },
+      {
+        "name": "bitquery",
+        "site": "https://explorer.bitquery.io/algorand",
+        "status": "live"
       }
     ]
   }

@@ -23,6 +23,8 @@ const About = () => {
             <p className="mb-1">For any feedback, bug finds, suggestions, and collaboration inquiries, please contact me
               in discord
               <span tw="font-bold mx-1">@oroalej#3957</span>
+              or in reddit
+              <span tw="font-bold mx-1">u/oroalej</span>
             </p>
           </div>
         </div>

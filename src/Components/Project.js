@@ -29,6 +29,17 @@ const ProjectCard = ({item}) => {
     return () => clearTimeout(timer)
   }, []);
 
+  const renderBadgeElement = () => {
+    if (item.status === undefined)
+      return null
+    else if (item.status === 'live')
+      return <Badge color="success">Live</Badge>
+    else if (item.status === 'test')
+      return <Badge color="warning">Testing</Badge>
+    else
+      return <Badge>{item.status}</Badge>
+  }
+
   return (
     <Card>
       <Card.Body>
@@ -37,16 +48,17 @@ const ProjectCard = ({item}) => {
           {isLoading ? <span tw="w-16 h-5 rounded transform animate-pulse bg-opacity-30" className={background}/> :
             <>
               <a href={item.site} rel="noreferrer" target="_blank"
-                 tw="text-lg leading-snug hover:underline text-green-700 whitespace-nowrap sm:flex-1">{item.name}</a>
-              {item.is_released ? <Badge color="success">Live</Badge> : <Badge>TBA</Badge>}
+                 tw="text-lg leading-snug hover:underline text-green-700 whitespace-nowrap sm:flex-1 capitalize">{item.name}</a>
+              {renderBadgeElement()}
             </>
           }
 
         </div>
         {isLoading ?
-            <div tw="flex flex-row flex-wrap justify-start items-center gap-2 w-full sm:w-auto" style={{paddingTop: '3px', paddingBottom: '3px'}}>
-              <span tw="w-16 h-5 rounded transform animate-pulse bg-opacity-30" className={background}/>
-            </div> : item.actions && (<Card.Actions item={item.actions}/>)
+          <div tw="flex flex-row flex-wrap justify-start items-center gap-2 w-full sm:w-auto"
+               style={{paddingTop: '3px', paddingBottom: '3px'}}>
+            <span tw="w-16 h-5 rounded transform animate-pulse bg-opacity-30" className={background}/>
+          </div> : item.actions && (<Card.Actions item={item.actions}/>)
         }
 
       </Card.Body>
