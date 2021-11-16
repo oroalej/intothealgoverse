@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/intothealgoverse/static/css/main.2ff849c9.chunk.css",
-    "main.js": "/intothealgoverse/static/js/main.167f12a2.chunk.js",
-    "main.js.map": "/intothealgoverse/static/js/main.167f12a2.chunk.js.map",
+    "main.css": "/intothealgoverse/static/css/main.4859c60d.chunk.css",
+    "main.js": "/intothealgoverse/static/js/main.03d265dd.chunk.js",
+    "main.js.map": "/intothealgoverse/static/js/main.03d265dd.chunk.js.map",
     "runtime-main.js": "/intothealgoverse/static/js/runtime-main.042cf3fa.js",
     "runtime-main.js.map": "/intothealgoverse/static/js/runtime-main.042cf3fa.js.map",
     "static/js/2.fdb64bc5.chunk.js": "/intothealgoverse/static/js/2.fdb64bc5.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.8c58a173.chunk.js": "/intothealgoverse/static/js/3.8c58a173.chunk.js",
     "static/js/3.8c58a173.chunk.js.map": "/intothealgoverse/static/js/3.8c58a173.chunk.js.map",
     "index.html": "/intothealgoverse/index.html",
-    "static/css/main.2ff849c9.chunk.css.map": "/intothealgoverse/static/css/main.2ff849c9.chunk.css.map",
+    "static/css/main.4859c60d.chunk.css.map": "/intothealgoverse/static/css/main.4859c60d.chunk.css.map",
     "static/js/2.fdb64bc5.chunk.js.LICENSE.txt": "/intothealgoverse/static/js/2.fdb64bc5.chunk.js.LICENSE.txt",
     "static/media/oroalej.b5c8cf5a.jfif": "/intothealgoverse/static/media/oroalej.b5c8cf5a.jfif"
   },
   "entrypoints": [
     "static/js/runtime-main.042cf3fa.js",
     "static/js/2.fdb64bc5.chunk.js",
-    "static/css/main.2ff849c9.chunk.css",
-    "static/js/main.167f12a2.chunk.js"
+    "static/css/main.4859c60d.chunk.css",
+    "static/js/main.03d265dd.chunk.js"
   ]
 }
