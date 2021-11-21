@@ -65,6 +65,13 @@
     "title": "DeFi",
     "list": [
       {
+        "name": "algobasket",
+        "site": "https://algobasket.io/",
+        "actions": {
+          "twitter": "https://twitter.com/algobasket_io"
+        }
+      },
+      {
         "name": "Algodex",
         "site": "https://about.algodex.com/",
         "status": "test",
@@ -86,12 +93,29 @@
         }
       },
       {
+        "name": "algogator",
+        "actions": {
+          "twitter": "https://twitter.com/teamalgogator"
+        }
+      },
+      {
         "name": "Algomint.io",
         "site": "https://www.algomint.io/",
         "status": "test",
         "actions": {
           "twitter": "https://twitter.com/Algomint_io",
           "telegram": "https://t.me/Algomint2"
+        }
+      },
+      {
+        "name": "algoneer",
+        "site": "https://www.algoneer.net/",
+        "status": "test",
+        "actions": {
+          "reddit": "https://www.reddit.com/r/algoneer/",
+          "twitter": "https://twitter.com/PSomnius",
+          "discord": "https://discord.com/invite/8umg9XWQda",
+          "github": "https://github.com/paxsomnius/Algoneer-ASA"
         }
       },
       {
@@ -132,6 +156,17 @@
         }
       },
       {
+        "name": "glitter.finance",
+        "site": "https://glitter.finance/",
+        "actions": {
+          "twitter": "https://twitter.com/GlitterFinance",
+          "telegram": "https://t.me/GlitterFinance",
+          "instagram": "https://www.instagram.com/glitter.finance/",
+          "github": "https://github.com/Glitter-Finance",
+          "medium": "https://medium.com/glitter-finance"
+        }
+      },
+      {
         "name": "Mese.io",
         "site": "https://testnet.mese.io/",
         "actions": {
@@ -167,6 +202,19 @@
         }
       },
       {
+        "name": "algo-poker",
+        "site": "https://www.algo-poker.com/",
+        "actions": {
+          "twitter": "https://twitter.com/Algo_Poker"
+        }
+      },
+      {
+        "name": "algocean",
+        "actions": {
+          "discord": "https://discord.com/invite/W4Msfe2neW"
+        }
+      },
+      {
         "name": "Legend of mitra",
         "site": "https://legendsofmitra.com/",
         "actions": {
@@ -187,6 +235,18 @@
           "discord": "https://discord.gg/SnbpdnDzUn",
           "twitter": "https://twitter.com/smile_coin1",
           "telegram": "https://t.me/smilecoin_invite"
+        }
+      },
+      {
+        "name": "Shosha",
+        "site": "https://shosha.io/",
+        "actions": {
+          "twitter": "https://twitter.com/ShoshaCrypto",
+          "instagram": "https://www.instagram.com/shoshacrypto/",
+          "facebook": "https://www.facebook.com/shoshacrypto/",
+          "telegram": "https://t.me/shoshacrypto",
+          "github": "https://github.com/ShoshaDev",
+          "discord": "https://discord.com/invite/Pa4vAPeEGc"
         }
       },
       {
@@ -481,6 +541,19 @@
           "github": "https://github.com/razor-network",
           "discord": "https://discord.com/invite/Js4pBny2rw",
           "medium": "https://medium.com/razor-network"
+        }
+      }
+    ]
+  },
+  {
+    "title": "Payments",
+    "list": [
+      {
+        "name": "&pay",
+        "site": "https://andpay.io/",
+        "status": "live",
+        "actions": {
+          "twitter": "https://twitter.com/andpayio"
         }
       }
     ]

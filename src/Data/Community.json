@@ -95,7 +95,10 @@
       {
         "name": "algosail",
         "site": "https://app.algosail.xyz/",
-        "status": "live"
+        "status": "live",
+        "actions": {
+          "twitter": "https://twitter.com/iamtechonda"
+        }
       }
     ]
   },

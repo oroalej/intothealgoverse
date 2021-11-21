@@ -40,6 +40,17 @@ const ProjectCard = ({item}) => {
       return <Badge>{item.status}</Badge>
   }
 
+  const renderTitleElement = () => {
+    if (item.site)
+      return (
+        <a href={item.site} rel="noreferrer" target="_blank"
+           tw="text-lg leading-snug hover:underline text-green-700 whitespace-nowrap sm:flex-1 capitalize">{item.name}
+        </a>
+      )
+
+    return <p tw="text-lg leading-snug text-green-900 whitespace-nowrap sm:flex-1 capitalize">{item.name}</p>
+  }
+
   return (
     <Card>
       <Card.Body>
@@ -47,8 +58,7 @@ const ProjectCard = ({item}) => {
 
           {isLoading ? <span tw="w-16 h-5 rounded transform animate-pulse bg-opacity-30" className={background}/> :
             <>
-              <a href={item.site} rel="noreferrer" target="_blank"
-                 tw="text-lg leading-snug hover:underline text-green-700 whitespace-nowrap sm:flex-1 capitalize">{item.name}</a>
+              {renderTitleElement()}
               {renderBadgeElement()}
             </>
           }
