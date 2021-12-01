@@ -93,18 +93,23 @@
         }
       },
       {
-        "name": "algogator",
+        "name": "algogator.finance",
+        "site": "https://algogator.finance/",
+        "status": "live",
         "actions": {
-          "twitter": "https://twitter.com/teamalgogator"
+          "twitter": "https://twitter.com/teamalgogator",
+          "discord": "https://discord.com/invite/zJzekaDqHU",
+          "medium": "https://medium.com/@xxiled_plastic_cat"
         }
       },
       {
         "name": "Algomint.io",
         "site": "https://www.algomint.io/",
-        "status": "test",
+        "status": "live",
         "actions": {
           "twitter": "https://twitter.com/Algomint_io",
-          "telegram": "https://t.me/Algomint2"
+          "telegram": "https://t.me/Algomint2",
+          "medium": "https://medium.com/algomint"
         }
       },
       {
@@ -230,6 +235,7 @@
       {
         "name": "Smilecoin",
         "site": "https://smilecoin.us/",
+        "status": "live",
         "actions": {
           "reddit": "https://www.reddit.com/r/SmileCoin/",
           "discord": "https://discord.gg/SnbpdnDzUn",
